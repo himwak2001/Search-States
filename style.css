@@ -1,0 +1,96 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+	font-family: 'Bree Serif', serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.search-bar{
+	margin-top: 50px;
+}
+
+#search-states{
+	padding: 10px;
+	width: 300px;
+	border-radius: 20px;
+	font-size: 15px;
+}
+
+.states-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin: 50px;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.states{
+	height: fit-content;
+	overflow: hidden;
+	width: 300px;
+	border: 2px solid gray;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?w=2000");
+	background-size: cover;
+	border-radius: 20px;
+	position: relative;
+}
+
+.states h3{
+	display: inline-block;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-bottom: 2px solid gray;
+	margin: 0 auto 0 auto;
+	padding: 15px 35px 15px 35px;
+/* 	position: absolute; */
+}
+
+.states p{
+	padding: 15px 0px 5px 0px;
+	width: 250px;
+	text-align: justify;
+	-webkit-line-clamp: 3;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	white-space: normal;
+}
+
+.states-image{
+	width: 250px;
+	height: 150px;
+	margin-top: 15px;
+	border-radius: 20px;
+}
+
+.states button{
+	padding: 10px;
+	width: 150px;
+	border-radius: 20px;
+	border: 2px solid #FD841F;
+	font-size: 17px;
+	color: #FD841F;
+	font-weight: bold;
+	margin-bottom: 15px;
+/* 	position: absolute; */
+}
+
+.states button:hover{
+	background-image: url("https://static.vecteezy.com/system/resources/thumbnails/007/439/433/small/art-of-traditional-indian-geometric-luxury-mandala-graphic-background-earth-tone-ornamental-on-shadow-transparency-decorative-pattern-east-style-illustration-with-copy-space-vector.jpg");
+	background-size: cover;
+	color: white;
+	cursor: pointer;
+	border: 2px solid white;
+}
